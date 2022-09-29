@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    background: url(img/fondo1.jpg) no-repeat center;
+    background-size: cover;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+header{
+    background: rgb(55, 90, 232);
+    padding: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1{
+    margin: 0;
+    color: white;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: rgba(255,255,255,.7);
+    display: flex;
+    gap: 30px;
+}
+
+#imagen{
+    width: 200px;
+}
+
+#palabra_a_adivinar{
+    height: 3em;
+}
+
+#palabra_a_adivinar span{
+    vertical-align: bottom;
+    font-size: 2em;
+    border-bottom: 2px solid black;
+    width: 30px;
+    text-align: center;
+    margin-right: 6px;
+    display: inline-block; /* sin esto, por ser un elemento de línea, no tomaría el width */
+}
+
+#letras{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#letras button{
+    width: 25px;
+    padding: 8px 0;
+    text-align: center;
+}
+
+footer{
+    position: relative;
+    top: 250px;
+    background: rgba(164, 236, 160, 0.828);
+    color: black;
+    text-align: center;
+}
